@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        Holds metadata
+        information we don't see
+            -links, veiwport infor, document title, etc. 
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Blog</title>
+</head>
+<body>
+
+    <header>
+        <!--
+             header can be used for introductory content or a set of navigational links
+        -->
+        <h1>Music Blog</h1>
+        <nav>
+            <ul>
+                <!-- emmet = li*4 -->
+                <li><span>Home</span></li>
+                <li><a href="#">Get Started</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- 
+            The <section> tag defines a section in a doc and has a default value of a block display.
+         -->
+         <h2>Welcome</h2>
+         <main>
+            <!-- -
+                - specifies the main content
+                - There can only be one
+                - Cannot be a descendant (child) of:
+                    -header
+                    - nav
+                    - article
+                    - aside
+                    - footer
+             -->
+
+             <article>
+                <!-- The <article> tag specifies independent, self-contained content -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi nesciunt alias nemo voluptatum minima voluptate, repudiandae, quae aperiam itaque dolores quam nam, eum voluptates deserunt dignissimos. Voluptatem, corporis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, explicabo quas voluptatibus asperiores unde maxime possimus iure et! Odit ullam ea delectus ut, asperiores commodi nesciunt sequi consequuntur a soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi nesciunt alias nemo voluptatum minima voluptate, repudiandae, quae aperiam itaque dolores quam nam, eum voluptates deserunt dignissimos. Voluptatem, corporis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, explicabo quas voluptatibus asperiores unde maxime possimus iure et! Odit ullam ea delectus ut, asperiores commodi nesciunt sequi consequuntur a soluta.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nisi nesciunt alias nemo voluptatum minima voluptate, repudiandae, quae aperiam itaque dolores quam nam, eum voluptates deserunt dignissimos. Voluptatem, corporis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, explicabo quas voluptatibus asperiores unde maxime possimus iure et! Odit ullam ea delectus ut, asperiores commodi nesciunt sequi consequuntur a soluta.</p>
+                <!-- Shift + Alt + [down arrow] or [up arrow] to copy quickly -->
+             </article>
+
+             <aside>
+                 <!-- 
+                     The <aside> tag defines some content aside from the content it is placed in or indirectly related to the surrounding content.
+                  -->
+                  <h2>Favorite Albums</h2>
+                  <!-- a:blank*4>img -->
+                  <a href="./assets/PinkFloyd.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/PinkFloyd.jpg" alt="Division Bell - Pink Floyd"></a>
+                  <a href="./assets/BrokenBells_Amoeba.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/BrokenBells_Amoeba.jpg" alt="Broken Bells - Amoeba"></a>
+                  <a href="./assets/inYourHonor.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/inYourHonor.jpg" alt="In Your Honor - Foo Fighters"></a>
+                  <a href="./assets/TVotR_seeds.jpg" target="_blank" rel="noopener noreferrer"><img src="./assets/TVotR_seeds.jpg" alt="TVOTR - Seeds"></a>       
+            </aside>
+             
+         </main>
+    </section>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam, doloribus illo magni aspernatur nemo ducimus voluptatem, accusamus eligendi asperiores cum? Quisquam, omnis autem tempora voluptas ratione natus repellendus non? &copy;2021</p>
+    </footer>
+ 
+</body>
+</html>
